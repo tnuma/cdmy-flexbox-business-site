@@ -1,141 +1,155 @@
 /* common */
 
 html {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 32px;
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 32px;
 }
 
 h1 {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .section-title {
-  font-size: 1.4rem;
-  text-align: center;
-  margin: 2rem 0;
+	font-size: 1.4rem;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+a {
+	display: block;
+	padding: 1rem;
+}
+
+a:hover {
+	color: gray;
 }
 
 h2,
 h3,
 p {
-  text-align: center;
+	text-align: center;
 }
 
 /* header */
 header {
-  width: 100%;
-  position: fixed;
-  border-bottom: .1rem solid #000;
-  background-color: #fff;
+	width: 100%;
+	position: fixed;
+	border-bottom: 0.1rem solid #000;
+	background-color: #fff;
 }
 
 header h1 {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 0.5rem;
 }
 
 header nav {
-  margin: 1rem 0;
+	padding: 0.5rem 0;
 }
 
 header nav ul {
-  display: flex;
-  justify-content: space-around;
+	display: flex;
+	height: 100%;
+	justify-content: space-around;
 }
 
 /* main content */
-
 section {
-  padding-top: 5.9375rem;
-  height: 100vh;
+	padding-top: 5.9375rem;
 }
 
-/* mission */
 
+/* mission */
 .banner {
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-image: url(https://images.unsplash.com/photo-1655720031554-a929595ffad7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
-  display: flex;
-  align-items: center;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(https://images.unsplash.com/photo-1655720031554-a929595ffad7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+	display: flex;
+	align-items: center;
 }
 
 .mission {
-  width: 100%;
-  /* height: 30%; */
-  background-color: #fff;
-  text-align: center;
-  vertical-align: middle;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	width: 100%;
+	/* height: 30%; */
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .mission h2 {
-  font-size: 1.4rem;
-  margin-top: 1rem;
+	font-size: 1.4rem;
+	margin-top: 1rem;
 }
 
 .mission p {
-  font-size: 1rem;
-  margin: 1rem 0;
+	font-size: 1rem;
+	margin: 1rem 0;
 }
 
 /* services */
 
 .services {
-  width: 90%;
-  margin: 0 auto;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .service {
-  margin-top: 1rem;
-  border: #000 solid 1px;
+	margin-top: 1rem;
+	border: #000 solid 1px;
 }
 
 .services-list img {
-  width: 100%;
-  height: 20rem;
-  object-fit: cover;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
 }
 
 .services-list h3 {
-  font-size: 1.2rem;
-  margin: .7rem 0;
+	font-size: 1.2rem;
+	margin: 0.7rem 0;
 }
 
 .services-list p {
-  margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 }
 
 /* teams */
 
 .teams {
-  width: 90%;
-  margin: 0 auto;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .member {
-  margin-top: 1rem;
-  border: #000 solid 1px;
+	margin-top: 1rem;
+	border: #000 solid 1px;
 }
 
 .member img {
-  width: 100%;
-  height: 20rem;
-  object-fit: cover;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
 }
 
 .member h3 {
-  font-size: 1.2rem;
-  margin: .7rem 0;
+	font-size: 1.2rem;
+	margin: 0.7rem 0;
 }
 
 .member p {
-  margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	margin: 2rem 0;
 }
