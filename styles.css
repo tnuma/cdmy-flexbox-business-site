@@ -2,7 +2,7 @@
 
 html {
 	font-family: "IBM Plex Mono", monospace;
-	font-size: 32px;
+	font-size: 16px;
 }
 
 h1 {
@@ -152,4 +152,77 @@ section {
 footer {
 	width: 100%;
 	margin: 2rem 0;
+}
+
+/* tablet */
+@media only screen and (min-width: 481px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin-left: 1rem;
+  }
+  section {
+    padding-top: 4.2rem;
+  }
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .service {
+    width: 30%;
+  }
+
+  .service h3 {
+    font-size: 1rem;
+  }
+
+  .service p {
+    font-size: 0.8rem;
+  }
+
+  .services-list img {
+    height: 10rem;
+  }
+
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .member {
+    width: 30%;
+  }
+  
+  .member h3 {
+    font-size: 1rem;
+  }
+  
+  .member p {
+    font-size: 0.8rem;
+  }
+  
+  .member img {
+    height: 10rem;
+  }
+}
+
+/* laptop */
+@media only screen and (min-width: 1025px) {
+  .services, 
+  .teams{
+    max-width: 1025px;
+  }
+  .services-list img {
+    height: 15rem;
+  }
+  .member img {
+    height: 15rem;
+  }
 }
